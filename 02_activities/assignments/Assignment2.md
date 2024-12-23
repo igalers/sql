@@ -54,9 +54,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Architecture 1 overwrites the old address, which would be Type 1. Simpler to build but doesn't retain old addresses, useful for situations where historical data is not important.
 ```
-
+Architecture 2 is able to assign more than one address to a customer and retain their old addresses. This would be Type 2. Helpful for analytical approach as it keeps historical records
 ***
 
 ## Section 2:
